@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Галерея картинок</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="gallery-container">
+    <h1>Галерея картинок</h1>
+    <div class="gallery">
+      <div class="image-item">
+        <img src="image1.jpg" alt="Картинка 1" class="gallery-image">
+      </div>
+      <div class="image-item">
+        <img src="image2.jpg" alt="Картинка 2" class="gallery-image">
+      </div>
+      <div class="image-item">
+        <img src="image3.jpg" alt="Картинка 3" class="gallery-image">
+      </div>
+      <div class="image-item">
+        <img src="image4.jpg" alt="Картинка 4" class="gallery-image">
+      </div>
+    </div>
+  </div>
+
+  <div id="lightbox" class="lightbox">
+    <span id="close" class="close-btn">&times;</span>
+    <img id="lightbox-image" src="" alt="Велика картинка">
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
